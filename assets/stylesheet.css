@@ -127,17 +127,6 @@ main {
 	border-right: solid 1px black;
 	position: sticky;
 	left: 0;
-}
-
-#availability-table tbody tr td {
-	border-right: solid 1px black;
-}
-
-#availability-table tbody tr td:last-of-type {
-	border-right: none;
-}
-
-#availability-table tbody tr th {
 	height: 3rem;
 	background-color: white;
 	border-bottom: solid 1px black;
@@ -149,12 +138,17 @@ main {
 }
 
 #availability-table tbody tr td {
+	border-right: solid 1px black;
 	height: 3rem;
 	background-color: white;
 	border-bottom: solid 1px black;
 	min-width: 4rem;
 	width: 6rem;
 	text-align: center;
+}
+
+#availability-table tbody tr td:last-of-type {
+	border-right: none;
 }
 
 #availability-table tbody tr:last-of-type th,
